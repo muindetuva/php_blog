@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;;
+}
+
+main {
+  flex: 1 0 auto;
+}
+ 
+.brand-logo{
+  font-weight: 800;
+}
+
+
+/* Make the footer have a bottom padding of 20px (Doesn't make sense why it doesnt) */
+.page-footer {
+  padding-bottom: 20px;
+}
+
+
+/* Make the link items have a white hover */
+nav ul li:hover {
+   background-color: #898989;
+}
+
+.logout-btn:hover{
+	background-color: black;
+}
+
+
+.landing-img{
+  width: 300px;
+}
+
+.intro-text {
+  width: 400px;
+}
+
+
+/* Style the about text */
+.about {
+  line-height: 24px;
+  font-size: 20px;
+}
+
+.about span {
+  font-weight: 400;
+}
+
+.blog-post-header {
+  height: 25vh;
+  background-color: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blog-post-show h1{
+  font-size: 48x;
+  font-weight: 800px;
+}
+
+.blog-post-show h2{
+  font-size: 24px;
+}
+
+.blog-post-show {
+  padding-bottom: 50px;
+}
+
+/* Make the card links bold */
+.card-action a{
+  font-weight: 600;
+}
+
+
+/*Style Login Page*/
+
+.login-page{
+	margin-top: 5rem;
+}
+
+.x-auth-session-status {
+	margin-bottom: 20px;
+	/*font-medium text-sm text-green-600'*/
+}
+
+.x-auth-validation-errors {
+	margin-bottom: 20px;
+	color: red;
+	font-size: 12px;
+}
+
+.login-submit{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.dashboard-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logout-btn{
+	margin-left: 30px;
+}
+
+.msg {
+	border-radius: 10px;
+}
+
+.close {
+	cursor: pointer;
+}
