@@ -7,8 +7,10 @@
 		<img class="responsive-img landing-img right" src="img/readmore.jpg">
 	</div>
 	<div class="col s6 center-align">
-		<p class="intro-text"> 
-		You will never find me standing in the middle of the room. I’m that guy who stalks the borders of a room. I belong in the darkened embrace of the shadows. The problem with standing in the middle of the room is that you become part of the narrative and there the power to tell the story of that room is perpetually strippegd off you.</p>
+		<p class="intro-text">
+		You will never find me standing in the middle of the room. I’m that guy who stalks the borders of a room.
+            I belong in the darkened embrace of the shadows. The problem with standing in the middle of the room is that
+            you become part of the narrative and there the power to tell the story of that room is perpetually stripped off you.</p>
 		<p class="intro-text">
 			Welcome to my world, to my room, but it’s not really mine when you occupy the middle of it, is it?
 		</p>
@@ -37,8 +39,8 @@
       		</div>
 		</div>
 		@endforeach
-		
-		
+
+
 	</div>
 </div>
 
